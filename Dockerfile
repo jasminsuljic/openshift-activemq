@@ -1,6 +1,6 @@
 FROM openjdk:8-jre
 
-MAINTAINER Michael Staehler <michael.staehler.ext@dkv-mobility.com>
+MAINTAINER Jasmin Suljic <jasmin.suljich@gmail.com>
 
 ENV ACTIVEMQ_VERSION=5.15.2 \
     POSTGRES_JDBC_DRIVER_VERSION=9.4.1212 \
