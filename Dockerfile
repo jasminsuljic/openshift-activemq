@@ -26,6 +26,7 @@ WORKDIR $ACTIVEMQ_HOME
 
 EXPOSE 61616
 EXPOSE 8161
+EXPOSE 5672
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["/bin/sh", "-c", "bin/activemq console"]
