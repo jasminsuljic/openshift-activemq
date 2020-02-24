@@ -120,6 +120,10 @@ objects:
       port: 61616
       protocol: TCP
       targetPort: 61616
+    - name: 5672-tcp
+      port: 5672
+      protocol: TCP
+      targetPort: 5672
     selector:
       app: openshift-activemq
       deploymentconfig: openshift-activemq
